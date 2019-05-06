@@ -1,0 +1,204 @@
+[
+  {
+    "title": "PitchDB",
+    "projectId": "pitchdb",
+    "mainTechs": "React, Node.js, MongoDB",
+    "description": "SaaS that allows users to search podcasts and speakers to promote their ideas. When prospects are found, users can compose and send emails to initiate communication with these prospects and later on track the progress for each one.",
+    "skillGroups": [
+      {
+        "category": "languages",
+        "skills": [
+          "JavaScript (ECMAScript 2017)",
+          "HTML w/ Bootstrap",
+          "CSS"
+        ]
+      },
+      {
+        "category": "frameworks",
+        "skills": [
+          "Node.js w/ Mongoose",
+          "Express",
+          "Koa",
+          "Mocha",
+          "React",
+          "Redux"
+        ]
+      },
+      {
+        "category": "tools",
+        "skills": [
+          "MongoDB",
+          "Digital Ocean",
+          "Linux",
+          "Gitlab w/ CI",
+          "OAuth 2.0",
+          "Google APIs",
+          "Paypal"
+        ]
+      }
+    ],
+    "networkLinks": [
+      {
+        "imgUrl": "icons/website.svg",
+        "url": "https://pitchdb.com"
+      }
+    ]
+  },
+  {
+    "title": "MonCRUD",
+    "projectId": "moncrud",
+    "mainTechs": "Node",
+    "description": "Open-source tool which allows CRUD operations on any MongoDB database. The tool functions as a web application that can be used by any user without a software development background.",
+    "skillGroups": [
+      {
+        "category": "languages",
+        "skills": [
+          "JavaScript (ECMAScript 2017)",
+          "HTML w/ Bootstrap",
+          "CSS w/ SASS"
+        ]
+      },
+      {
+        "category": "frameworks",
+        "skills": [
+          "Node.js",
+          "Express w/ Pug"
+        ]
+      },
+      {
+        "category": "tools",
+        "skills": [
+          "MongoDB",
+          "Github",
+          "AWS"
+        ]
+      }
+    ],
+    "networkLinks": [
+      {
+        "imgUrl": "icons/website.svg",
+        "url": "https://moncrud.com"
+      },
+      {
+        "imgUrl": "icons/github.svg",
+        "url": "https://github.com/sbeltran10/moncrud"
+      }
+    ]
+  },
+  {
+    "title": "GersafeII",
+    "projectId": "gersafeii",
+    "mainTechs": "AngularJS, JavaEE, SQL Oracle",
+    "description": "Enterprise web application used by a sea shipping company to carry out day-to-day operations. The app features management modules for different areas of the company, an email alarm system and data transformation for filling government-required documents.",
+    "skillGroups": [
+      {
+        "category": "languages",
+        "skills": [
+          "Java",
+          "SQL",
+          "JavaScript",
+          "HTML w/ Bootstrap",
+          "CSS"
+        ]
+      },
+      {
+        "category": "frameworks",
+        "skills": [
+          "JavaEE",
+          "JPA",
+          "Apache Camel",
+          "AngularJS"
+        ]
+      },
+      {
+        "category": "tools",
+        "skills": [
+          "SQL Oracle",
+          "AWS EC2",
+          "Linux",
+          "Bash",
+          "Gitlab",
+          "Stored Procedures"
+        ]
+      }
+    ],
+    "networkLinks": [
+    ]
+  },
+  {
+    "title": "CollabIDE (Research Publication)",
+    "projectId": "collabide",
+    "mainTechs": "Node",
+    "description": "Prototype Integrated Development Environment in the cloud that helps development teams collaborate on a software project.",
+    "skillGroups": [
+      {
+        "category": "languages",
+        "skills": [
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "category": "frameworks",
+        "skills": [
+          "Node.js",
+          "Express"
+        ]
+      },
+      {
+        "category": "tools",
+        "skills": [
+          "Firebase",
+          "Heroku",
+          "Github"
+        ]
+      }
+    ],
+    "networkLinks": [
+      {
+        "imgUrl": "icons/website.svg",
+        "url": "https://www.researchgate.net/publication/326844516_A_collaborative_IDE_for_dynamic_multi-versioning_and_variant_management"
+      },
+      {
+        "imgUrl": "icons/github.svg",
+        "url": "https://github.com/sbeltran10/collabIDE"
+      }
+    ]
+  },
+  {
+    "title": "WalkingRoutes",
+    "projectId": "walkingroutes",
+    "mainTechs": "Node",
+    "description": "Web app that allows the creation of touristic routes for different cities of the world. Multi-language support.",
+    "skillGroups": [
+      {
+        "category": "languages",
+        "skills": [
+          "JavaScript",
+          "HTML w/ Bootstrap",
+          "CSS"
+        ]
+      },
+      {
+        "category": "frameworks",
+        "skills": [
+          "Node.js"
+        ]
+      },
+      {
+        "category": "tools",
+        "skills": [
+          "AWS EC2",
+          "AWS Lambda",
+          "AWS API Gateway",
+          "AWS S3",
+          "Gitlab",
+          "Linux"
+        ]
+      }
+    ],
+    "networkLinks": [
+    ]
+  }
+]
