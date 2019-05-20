@@ -2,7 +2,8 @@
 @import "mixins";
 
 .project-article.col-12 {
-  color: white;    
+  color: white;
+  margin-bottom: 0.5rem;
 
   .pro-title-row {
     text-align: center;
@@ -28,10 +29,21 @@
     .image-wrap.col-12 {
       border: 1px solid black;
     }
-
+    
     p.col-12 {
-      padding: 1rem 0;
+      padding: 1rem 0 0 0;
       text-align: justify;
+      margin-bottom: 0;
+    }
+
+    p.col-12.proj-dates {
+      font-style: italic;
+      text-align: left;
+      color: #999999;
+    }
+
+    .proj-skills{
+      padding-top: 1rem; 
     }
   }
 

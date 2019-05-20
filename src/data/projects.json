@@ -4,8 +4,8 @@
     "projectId": "pitchdb",
     "mainTechs": "React, Node, Mongo",
     "description": "SaaS that allows users to search podcasts and speakers to promote their ideas. When prospects are found, users can compose and send emails to initiate communication with these prospects and later on track the progress for each one.",
-    "techDescription":"",
-    "projectDates": "",
+    "techDescription":"The user-facing static website communicates with 2 node applications that provide the needed API services. The first node application handles user data management, email sending and podcast searching. The second node application handles businesses data querying from a mongo datasource. The node applications leverage many APIs like Google, Microsoft, Paypal and Hunter.io among others, to provide functions for signing in, email sending, payment collection, email searching and email verification.",
+    "projectDates": "July 2018 - Present",
     "skillGroups": [
       {
         "category": "languages",
@@ -20,6 +20,7 @@
         "skills": [
           "Node.js w/ Mongoose",
           "Express",
+          "Socket.io",
           "Koa",
           "Mocha",
           "React",
@@ -51,8 +52,8 @@
     "projectId": "moncrud",
     "mainTechs": "Node, Mongo",
     "description": "Open-source tool which allows CRUD operations on any MongoDB database. The tool functions as a web application that can be used by any user without a software development background.",
-    "techDescription":"",
-    "projectDates": "",
+    "techDescription":"The main application is built in Express and it is intented to be executed by itself on user servers. The moncrud page was built with gatsby as a static page and the demo runs on a Docker container hosted on AWS.",
+    "projectDates": "November 2018 - Present",
     "skillGroups": [
       {
         "category": "languages",
@@ -75,7 +76,7 @@
         "skills": [
           "MongoDB",
           "Github",
-          "AWS",
+          "AWS Amplify",
           "Docker"
         ]
       }
@@ -95,9 +96,9 @@
     "title": "GersafeII",
     "projectId": "gersafeii",
     "mainTechs": "AngularJS, JavaEE, SQL Oracle",
-    "description": "Enterprise web application used by a sea shipping company to carry out day-to-day operations. The app features management modules for different areas of the company, an email alarm system and data transformation for filling government-required documents.",
-    "techDescription":"",
-    "projectDates": "",
+    "description": "Enterprise web application used by a sea shipping company to carry out day-to-day operations. The application features management modules for different areas of the company, an email alarm system and data transformation for filling government-required documents.",
+    "techDescription":"The user-facing static website communicates with multiple JavaEE applications that provide the services it needs. The JavaEE applications run on a Wildfly server and they handle CRUD operations and user data management. Another important component is the Enterprise Service Bus (ESB) that orchestrates the communication between the JavaEE modules and also provides services for data transforming and email sending.",
+    "projectDates": "September 2017 - July 2018",
     "skillGroups": [
       {
         "category": "languages",
@@ -137,9 +138,9 @@
     "title": "CollabIDE",
     "projectId": "collabide",
     "mainTechs": "Node, Firebase",
-    "description": "Prototype Integrated Development Environment in the cloud that helps development teams collaborate on a software project.",
-    "techDescription":"",
-    "projectDates": "",
+    "description": "(Research project) Integrated Development Environment in the cloud that helps development teams collaborate on a software project.",
+    "techDescription":"The main application uses Express to deliver the web content to users and coordinate the interaction between different user sessions. CollabIDE leverages Firebase's real-time database to display changes to users collaborating on a project.",
+    "projectDates": "January 2017 - July 2017",
     "skillGroups": [
       {
         "category": "languages",
@@ -180,9 +181,9 @@
     "title": "WalkingRoutes",
     "projectId": "walkingroutes",
     "mainTechs": "React, Node, AWS",
-    "description": "Web app that allows the creation of touristic routes for different cities of the world. Multi-language support.",
-    "techDescription":"",
-    "projectDates": "",
+    "description": "Web application that allows the creation of touristic routes for different cities of the world. Support creating content in many different languages.",
+    "techDescription":"The user-facing application is a static website hosted on a EC2 instance. The back-end is an entirely serverless solution, using AWS to create the API needed by the front-end.",
+    "projectDates": "October 2017 - December 2017",
     "skillGroups": [
       {
         "category": "languages",
@@ -205,6 +206,7 @@
           "AWS Lambda",
           "AWS API Gateway",
           "AWS S3",
+          "AWS Dynamo",
           "Gitlab",
           "Linux"
         ]
@@ -214,12 +216,12 @@
     ]
   },
   {
-    "title": "QuestionnaireQuest",
+    "title": "Questionnaire",
     "projectId": "questionnairequest",
     "mainTechs": "React Native, AWS",
-    "description": "Media rich branching questionnaire designed in React-Native. Three different types of questionnaire are supported: survey, quiz and game.",
-    "techDescription":"",
-    "projectDates": "",
+    "description": "React Naitve application intented to be used as a media rich branching questionnaire component. Three different types of questionnaire are supported: survey, quiz and games.",
+    "techDescription":"The mobile application is built in its entirity with React Native. The back-end is a completely serverless solution using AWS to create the API needed by the mobile application.",
+    "projectDates": "April 2019 - May 2019",
     "skillGroups": [
       {
         "category": "languages",

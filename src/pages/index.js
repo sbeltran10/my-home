@@ -89,11 +89,14 @@ const IndexPage = () => (
                 className={'background-img'}
               >
                 <div className="row intro-content">
-                  <div className="offset-2 col-8 offset-lg-0 col-lg-2 image-wrap">
+                  <div className="offset-2 col-8 offset-lg-0 col-lg-3 image-wrap">
                     <Img alt={"santiago beltran"} fluid={data.me.childImageSharp.fluid} />
                   </div>
-                  <p className="col-12 col-lg-10 name-desc-wrap">
+                  <p className="col-12 col-lg-9 name-desc-wrap">
                     Software Engineer with a focus on web development, from requirements gathering to deployment in a production environment.
+                    <br/>
+                    <br/>
+                    I've worked in many environments, taking on the role of team member, solo developer, mentor and have been able to be effective in all of these situations.
               </p>
                 </div>
               </BackgroundImage>
@@ -102,7 +105,7 @@ const IndexPage = () => (
 
           <section className="row projects-nav-section">
             <h2 className="col-12">
-              What have I built?
+              What have I worked on?
             </h2>
             <div className="col-12">
               <ul className="row projects-nav-ul">

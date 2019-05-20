@@ -12,7 +12,7 @@ main.container-fluid {
       .intro-content {
         color: white;
         padding: 0.5rem;
-        
+        align-items: center;
         .image-wrap {
           img {
             border-radius: 50%;
@@ -22,7 +22,7 @@ main.container-fluid {
           margin-top: 1rem;
           display: flex;
           align-items: center;
-          font-size: 1.2rem;
+          
           text-align: center;
         }
 
@@ -32,6 +32,7 @@ main.container-fluid {
           p {
             padding: 0 5rem;
             text-align: left;
+            font-size: 1.2rem;
           }
         }
       }
