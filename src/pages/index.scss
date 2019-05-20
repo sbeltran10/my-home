@@ -1,3 +1,5 @@
+@import "../components/variables";
+
 main.container-fluid {
   section {
     padding: 1rem; 
@@ -10,6 +12,7 @@ main.container-fluid {
       .intro-content {
         color: white;
         padding: 0.5rem;
+        
         .image-wrap {
           img {
             border-radius: 50%;
@@ -22,12 +25,24 @@ main.container-fluid {
           font-size: 1.2rem;
           text-align: center;
         }
+
+        @media screen and (min-width: $break) {
+          padding: 1rem 20%;
+
+          p {
+            padding: 0 5rem;
+            text-align: left;
+          }
+        }
       }
     }
   }
 
   .projects-nav-section {
     padding: 1rem 0;
+    @media screen and (min-width: $break) {
+      padding: 1rem 20%;
+    }
     h2 {
       font-size: 1.4rem;
       text-align: center;

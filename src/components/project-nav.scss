@@ -45,6 +45,10 @@
       &.walkingroutes {
         @include navColor($color-walkingroutes);
       }
+
+      &.questionnairequest{
+        @include navColor($color-questionnairequest);
+      }
     }
     &:hover, :visited, :focus {
       text-decoration: none;

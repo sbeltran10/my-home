@@ -1,5 +1,8 @@
+@import "variables";
+@import "mixins";
+
 header {
-  padding: 1rem 5%;
+  padding: 1rem;
   background-color: black;
 
   h1 {
@@ -9,5 +12,9 @@ header {
       color: white;
       text-decoration: none;
     }
+  }
+
+  @media screen and (min-width: $break) {
+    padding: 1rem 20%;
   }
 }

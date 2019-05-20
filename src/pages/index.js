@@ -35,6 +35,8 @@ const IndexPage = () => (
               projectId
               mainTechs
               description
+              techDescription
+              projectDates
               skillGroups {
                 category
                 skills
@@ -87,10 +89,10 @@ const IndexPage = () => (
                 className={'background-img'}
               >
                 <div className="row intro-content">
-                  <div className="offset-2 col-8 offset-sm-0 col-sm-2 image-wrap">
+                  <div className="offset-2 col-8 offset-lg-0 col-lg-2 image-wrap">
                     <Img alt={"santiago beltran"} fluid={data.me.childImageSharp.fluid} />
                   </div>
-                  <p className="col-12 col-sm-10 name-desc-wrap">
+                  <p className="col-12 col-lg-10 name-desc-wrap">
                     Software Engineer with a focus on web development, from requirements gathering to deployment in a production environment.
               </p>
                 </div>

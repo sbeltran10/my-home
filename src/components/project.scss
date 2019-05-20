@@ -21,13 +21,17 @@
     color: black;
     background-color: white;
     padding: 0.5rem;
+    @media screen and (min-width: $break) {
+      padding: 1rem 20%;
+    }
 
     .image-wrap.col-12 {
       border: 1px solid black;
     }
 
-    p {
-      padding-top: 1rem; 
+    p.col-12 {
+      padding: 1rem 0;
+      text-align: justify;
     }
   }
 
@@ -62,4 +66,9 @@
   &#walkingroutes {
     @include projColor($color-walkingroutes);
   }
+
+  &#questionnairequest {
+    @include projColor($color-questionnairequest);
+  }
+  
 }

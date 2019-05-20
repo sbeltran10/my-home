@@ -4,6 +4,8 @@
     "projectId": "pitchdb",
     "mainTechs": "React, Node, Mongo",
     "description": "SaaS that allows users to search podcasts and speakers to promote their ideas. When prospects are found, users can compose and send emails to initiate communication with these prospects and later on track the progress for each one.",
+    "techDescription":"",
+    "projectDates": "",
     "skillGroups": [
       {
         "category": "languages",
@@ -49,6 +51,8 @@
     "projectId": "moncrud",
     "mainTechs": "Node, Mongo",
     "description": "Open-source tool which allows CRUD operations on any MongoDB database. The tool functions as a web application that can be used by any user without a software development background.",
+    "techDescription":"",
+    "projectDates": "",
     "skillGroups": [
       {
         "category": "languages",
@@ -92,6 +96,8 @@
     "projectId": "gersafeii",
     "mainTechs": "AngularJS, JavaEE, SQL Oracle",
     "description": "Enterprise web application used by a sea shipping company to carry out day-to-day operations. The app features management modules for different areas of the company, an email alarm system and data transformation for filling government-required documents.",
+    "techDescription":"",
+    "projectDates": "",
     "skillGroups": [
       {
         "category": "languages",
@@ -132,6 +138,8 @@
     "projectId": "collabide",
     "mainTechs": "Node, Firebase",
     "description": "Prototype Integrated Development Environment in the cloud that helps development teams collaborate on a software project.",
+    "techDescription":"",
+    "projectDates": "",
     "skillGroups": [
       {
         "category": "languages",
@@ -173,6 +181,8 @@
     "projectId": "walkingroutes",
     "mainTechs": "React, Node, AWS",
     "description": "Web app that allows the creation of touristic routes for different cities of the world. Multi-language support.",
+    "techDescription":"",
+    "projectDates": "",
     "skillGroups": [
       {
         "category": "languages",
@@ -201,6 +211,44 @@
       }
     ],
     "networkLinks": [
+    ]
+  },
+  {
+    "title": "QuestionnaireQuest",
+    "projectId": "questionnairequest",
+    "mainTechs": "React Native, AWS",
+    "description": "Media rich branching questionnaire designed in React-Native. Three different types of questionnaire are supported: survey, quiz and game.",
+    "techDescription":"",
+    "projectDates": "",
+    "skillGroups": [
+      {
+        "category": "languages",
+        "skills": [
+          "JavaScript"
+        ]
+      },
+      {
+        "category": "frameworks",
+        "skills": [
+          "Node.js",
+          "React Native"
+        ]
+      },
+      {
+        "category": "tools",
+        "skills": [
+          "AWS Lambda",
+          "AWS API Gateway",
+          "AWS Dynamo",
+          "Github"
+        ]
+      }
+    ],
+    "networkLinks": [
+      {
+        "imgUrl": "github",
+        "url": "https://github.com/sbeltran10/react-native-questionnaire-quest"
+      }
     ]
   }
 ]

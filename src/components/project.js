@@ -38,7 +38,7 @@ const Project = ({ projectId, title, description, skillGroups, networkLinks, img
       </div>
     </div>
     <div className="row proj-skills-det-row">
-      <div className="col-12 col-sm-4">
+      <div className="col-12 col-lg-4">
         <ul className="row">
           {networkLinks.map((networkLink, index) => (
             <NetworkLink key={index} {...networkLink} img={imgUrls[networkLink.imgUrl]} />

@@ -1,3 +1,6 @@
+@import "variables";
+@import "mixins";
+
 footer{
   background-color: #505050;
   color: white;
@@ -5,7 +8,9 @@ footer{
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem; 
-
+  @media screen and (min-width: $break) {
+    padding: 1rem 20%;
+  }
   ul{
     margin-bottom: 0;
     justify-content: center;

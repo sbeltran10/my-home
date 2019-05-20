@@ -2,7 +2,7 @@ import React from 'react'
 import './project-nav.scss'
 
 const ProjectNav = ({ projectId, title, mainTechs }) => (
-  <li className="col-6 project-nav-li">
+  <li className="col-6 col-lg-4 project-nav-li">
     <a href={`#${projectId}`}>
       <div className={`info-cont ${projectId}`}>
         <h3>
