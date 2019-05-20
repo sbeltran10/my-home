@@ -1,9 +1,11 @@
 import React from 'react'
 
+import './skill-group.scss'
+
 const SkillGroup = ({ category, skills }) => (
-  <ul className={`col-12 ${category}-category`}>
+  <ul className={`skill-group row ${category}-category`}>
     {skills.map((skill, index) => (
-      <li key={index}>
+      <li key={index} className="col-auto">
         {skill}
       </li>
     ))}

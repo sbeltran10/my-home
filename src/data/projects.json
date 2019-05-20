@@ -2,7 +2,7 @@
   {
     "title": "PitchDB",
     "projectId": "pitchdb",
-    "mainTechs": "React, Node.js, MongoDB",
+    "mainTechs": "React, Node, Mongo",
     "description": "SaaS that allows users to search podcasts and speakers to promote their ideas. When prospects are found, users can compose and send emails to initiate communication with these prospects and later on track the progress for each one.",
     "skillGroups": [
       {
@@ -39,15 +39,15 @@
     ],
     "networkLinks": [
       {
-        "imgUrl": "icons/website.svg",
+        "imgUrl": "website",
         "url": "https://pitchdb.com"
       }
     ]
   },
   {
-    "title": "MonCRUD",
+    "title": "Moncrud",
     "projectId": "moncrud",
-    "mainTechs": "Node",
+    "mainTechs": "Node, Mongo",
     "description": "Open-source tool which allows CRUD operations on any MongoDB database. The tool functions as a web application that can be used by any user without a software development background.",
     "skillGroups": [
       {
@@ -62,7 +62,8 @@
         "category": "frameworks",
         "skills": [
           "Node.js",
-          "Express w/ Pug"
+          "Express w/ Pug",
+          "GatsbyJS"
         ]
       },
       {
@@ -70,17 +71,18 @@
         "skills": [
           "MongoDB",
           "Github",
-          "AWS"
+          "AWS",
+          "Docker"
         ]
       }
     ],
     "networkLinks": [
       {
-        "imgUrl": "icons/website.svg",
+        "imgUrl": "website",
         "url": "https://moncrud.com"
       },
       {
-        "imgUrl": "icons/github.svg",
+        "imgUrl": "github",
         "url": "https://github.com/sbeltran10/moncrud"
       }
     ]
@@ -126,9 +128,9 @@
     ]
   },
   {
-    "title": "CollabIDE (Research Publication)",
+    "title": "CollabIDE",
     "projectId": "collabide",
-    "mainTechs": "Node",
+    "mainTechs": "Node, Firebase",
     "description": "Prototype Integrated Development Environment in the cloud that helps development teams collaborate on a software project.",
     "skillGroups": [
       {
@@ -157,11 +159,11 @@
     ],
     "networkLinks": [
       {
-        "imgUrl": "icons/website.svg",
+        "imgUrl": "website",
         "url": "https://www.researchgate.net/publication/326844516_A_collaborative_IDE_for_dynamic_multi-versioning_and_variant_management"
       },
       {
-        "imgUrl": "icons/github.svg",
+        "imgUrl": "github",
         "url": "https://github.com/sbeltran10/collabIDE"
       }
     ]
@@ -169,7 +171,7 @@
   {
     "title": "WalkingRoutes",
     "projectId": "walkingroutes",
-    "mainTechs": "Node",
+    "mainTechs": "React, Node, AWS",
     "description": "Web app that allows the creation of touristic routes for different cities of the world. Multi-language support.",
     "skillGroups": [
       {

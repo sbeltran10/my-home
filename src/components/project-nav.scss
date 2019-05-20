@@ -1,0 +1,53 @@
+@import "variables";
+@import "mixins";
+
+.project-nav-li {
+  padding: 0.5rem;
+
+  a {
+    text-decoration: none;
+
+    .info-cont {
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 5rem;
+      padding: 0.2rem;
+
+      h3 {
+        text-align: center;
+        font-size: 1.2rem;
+      }
+
+      .techs {
+        text-align: center;
+        font-size: 0.8rem;
+      }
+
+      &.pitchdb {
+        @include navColor($color-pitchdb);
+      }
+
+      &.moncrud {
+        @include navColor($color-moncrud);
+      }
+
+      &.gersafeii {
+        @include navColor($color-gersafeii);
+      }
+
+      &.collabide {
+        @include navColor($color-collabide);
+      }
+
+      &.walkingroutes {
+        @include navColor($color-walkingroutes);
+      }
+    }
+    &:hover, :visited, :focus {
+      text-decoration: none;
+    }
+  }
+}

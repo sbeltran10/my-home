@@ -1,0 +1,40 @@
+main.container-fluid {
+  section {
+    padding: 1rem; 
+  }
+  .intro-section.row {
+    padding: 0;
+
+    .col-12 {
+      padding: 0;
+      .intro-content {
+        color: white;
+        padding: 0.5rem;
+        .image-wrap {
+          img {
+            border-radius: 50%;
+          }
+        }
+        p {
+          margin-top: 1rem;
+          display: flex;
+          align-items: center;
+          font-size: 1.2rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .projects-nav-section {
+    padding: 1rem 0;
+    h2 {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+  }
+
+  .projects-section {
+    padding: 1rem 0 0 0;
+  }
+}

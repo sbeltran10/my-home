@@ -1,0 +1,65 @@
+@import "variables";
+@import "mixins";
+
+.project-article.col-12 {
+  color: white;    
+
+  .pro-title-row {
+    text-align: center;
+
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.4rem;
+      margin-bottom: 0;
+      height: 4rem;
+    }
+  }
+
+  .proj-main-row {
+    color: black;
+    background-color: white;
+    padding: 0.5rem;
+
+    .image-wrap.col-12 {
+      border: 1px solid black;
+    }
+
+    p {
+      padding-top: 1rem; 
+    }
+  }
+
+  .proj-skills-det-row{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul{
+      margin: 0;
+      justify-content: center;
+    }
+  }
+
+  &#pitchdb {
+    @include projColor($color-pitchdb);
+  }
+
+  &#moncrud {
+    @include projColor($color-moncrud);
+  }
+
+  &#gersafeii {
+    @include projColor($color-gersafeii);
+  }
+
+  &#collabide {
+    @include projColor($color-collabide);
+  }
+
+  &#walkingroutes {
+    @include projColor($color-walkingroutes);
+  }
+}

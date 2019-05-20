@@ -1,0 +1,19 @@
+@mixin navColor($color) {
+  color: $color;
+  border-color: $color;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, opacity 0.15s ease-in-out;
+
+  &:hover,
+  :focus {
+    color: white;
+    background-color: $color
+  }
+}
+
+@mixin projColor($color) {
+  background-color: $color;
+
+  .image-wrap.col-12{
+    border-color: $color;
+  }
+}

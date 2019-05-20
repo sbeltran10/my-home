@@ -1,13 +1,16 @@
 import React from 'react'
+import './project-nav.scss'
 
 const ProjectNav = ({ projectId, title, mainTechs }) => (
-  <li>
+  <li className="col-6 project-nav-li">
     <a href={`#${projectId}`}>
-      <h3>
-        {title}
-      </h3>
-      <div>
-        {mainTechs}
+      <div className={`info-cont ${projectId}`}>
+        <h3>
+          {title}
+        </h3>
+        <div className="techs">
+          {mainTechs}
+        </div>
       </div>
     </a>
   </li>

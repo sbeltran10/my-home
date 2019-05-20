@@ -1,12 +1,12 @@
 import React from 'react'
-import Image from './image'
+import './network-link.scss'
 
-const NetworkLink = ({ url, imgUrl }) => (
-  <li>
+const NetworkLink = ({ url, img }) => (
+  <li className="col-auto network-link">
     <a href={url}>
-      <Image />
+      <img src={img} alt={`logo-${url}`}></img>
     </a>
-  </li>
+  </li >
 )
 
 export default NetworkLink

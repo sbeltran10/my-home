@@ -1,0 +1,32 @@
+ul.skill-group {
+  li {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+    padding-top: 0.15rem;
+    padding-bottom: 0.15rem;
+  }
+
+  &.languages-category {
+    li {
+      border-color: #177EE5;
+      background-color: #177EE5;
+    }
+  }
+
+  &.frameworks-category {
+    li {
+      border-color: #E67300;
+      background-color: #E67300;
+    }
+  }
+  &.tools-category {
+    li {
+      border-color: #800080	;
+      background-color: #800080	;
+    }
+  }
+}
