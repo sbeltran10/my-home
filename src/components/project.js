@@ -25,7 +25,7 @@ const Project = ({ projectId, title, description, techDescription, projectDates,
     <div className="row proj-main-row">
       {imgData &&
         <div className="col-12 image-wrap">
-          <Img fluid={imgData} />
+          <Img fluid={imgData} alt="project image"/>
         </div>
       }
       <p className="col-12 proj-dates">

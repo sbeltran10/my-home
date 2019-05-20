@@ -14,7 +14,7 @@ const imgUrls = {
   upwork: upworkImg
 }
 
-const Footer = ({ url, imgUrl }) => (
+const Footer = () => (
   <StaticQuery
     query={graphql`
     query {      

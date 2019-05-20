@@ -1,20 +1,40 @@
 @import "variables";
 @import "mixins";
 
-header {
+header.container-fluid {
   padding: 1rem;
   background-color: black;
 
-  h1 {
-    font-size: 1.7rem;
-    margin: 0;
-    a {
-      color: white;
-      text-decoration: none;
+  .row {
+    h1 {
+      font-size: 1.7rem;
+      margin: 0;
+      text-align: center;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    ul {
+      margin: 0;
+      justify-content: space-around;
+      padding-top: 1rem;
     }
   }
 
   @media screen and (min-width: $break) {
     padding: 1rem 20%;
+
+    .row {
+      h1 {
+        text-align: left;
+      }
+
+      ul.row {
+        justify-content: flex-end;
+        padding-top: 0;
+      }
+    }
   }
 }
