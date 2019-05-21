@@ -3,7 +3,7 @@
     "title": "PitchDB",
     "projectId": "pitchdb",
     "mainTechs": "React, Node, Mongo",
-    "description": "SaaS that allows users to search podcasts and speakers to promote their ideas. When prospects are found, users can compose and send emails to initiate communication with these prospects and later on track the progress for each one.",
+    "description": "SaaS that allows users to search podcasts and speakers to promote their ideas. When prospects are found, users can compose and send emails to initiate communication with these prospects and later on, track the progress for each one.",
     "techDescription":"The user-facing static website communicates with 2 node applications that provide the needed API services. The first node application handles user data management, email sending and podcast searching. The second node application handles businesses data querying from a mongo datasource. The node applications leverage many APIs like Google, Microsoft, Paypal and Hunter.io among others, to provide functions for signing in, email sending, payment collection, email searching and email verification.",
     "projectDates": "July 2018 - Present",
     "skillGroups": [
@@ -181,7 +181,7 @@
     "title": "WalkingRoutes",
     "projectId": "walkingroutes",
     "mainTechs": "React, Node, AWS",
-    "description": "Web application that allows the creation of touristic routes for different cities of the world. Support creating content in many different languages.",
+    "description": "Web application that allows the creation of touristic routes for different cities of the world. Has support for creating content in many different languages.",
     "techDescription":"The user-facing application is a static website hosted on a EC2 instance. The back-end is an entirely serverless solution, using AWS to create the API needed by the front-end.",
     "projectDates": "October 2017 - December 2017",
     "skillGroups": [
