@@ -3,8 +3,7 @@
   border-color: $color;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, opacity 0.15s ease-in-out;
 
-  &:hover,
-  :focus {
+  &:hover {
     color: white;
     background-color: $color
   }
