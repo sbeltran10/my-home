@@ -4,7 +4,7 @@
     "projectId": "pitchdb",
     "mainTechs": "React, Node, Mongo",
     "description": "SaaS that allows users to search podcasts and speakers to promote their ideas. When prospects are found, users can compose and send emails to initiate communication with these prospects and later on, track the progress for each one.",
-    "techDescription":"The user-facing static website communicates with 2 node applications that provide the needed API services. The first node application handles user data management, email sending and podcast searching. The second node application handles businesses data querying from a mongo datasource. The node applications leverage many APIs like Google, Microsoft, Paypal and Hunter.io among others, to provide functions for signing in, email sending, payment collection, email searching and email verification.",
+    "techDescription":"The user-facing static website communicates with 2 node applications that provide the needed API services. The first node application handles user data management, email sending and podcast searching. The second node application handles businesses data querying from a mongo datasource. The node applications leverage many APIs from Google, Microsoft, Paypal and Hunter.io among others, to provide functions for signing in, email sending, payment collection, email searching and email verification.",
     "projectDates": "July 2018 - Present",
     "skillGroups": [
       {
@@ -68,6 +68,7 @@
         "skills": [
           "Node.js",
           "Express w/ Pug",
+          "React",
           "GatsbyJS"
         ]
       },
@@ -127,7 +128,8 @@
           "Linux",
           "Bash",
           "Gitlab",
-          "Stored Procedures"
+          "Stored Procedures",
+          "Wildfly"
         ]
       }
     ],
@@ -196,7 +198,8 @@
       {
         "category": "frameworks",
         "skills": [
-          "Node.js"
+          "Node.js",
+          "React"
         ]
       },
       {
