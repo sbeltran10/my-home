@@ -78,7 +78,8 @@
           "MongoDB",
           "Github",
           "AWS Amplify",
-          "Docker"
+          "Docker",
+          "Docker Compose"
         ]
       }
     ],
