@@ -220,7 +220,7 @@
     "projectId": "questionnairequest",
     "mainTechs": "React Native, AWS",
     "description": "React Naitve application intented to be used as a media rich branching questionnaire component. Three different types of questionnaire are supported: survey, quiz and games.",
-    "techDescription":"The mobile application is built in its entirity with React Native. The back-end is a completely serverless solution using AWS to create the API needed by the mobile application.",
+    "techDescription":"The mobile application is built in its entirety with React Native. The back-end is a completely serverless solution using AWS to create the API needed by the mobile application.",
     "projectDates": "April 2019 - May 2019",
     "skillGroups": [
       {
