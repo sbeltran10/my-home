@@ -36,7 +36,8 @@
           "Gitlab w/ CI",
           "OAuth 2.0",
           "Google APIs",
-          "Paypal"
+          "Paypal",
+          "Nginx"
         ]
       }
     ],
@@ -131,7 +132,8 @@
           "Bash",
           "Gitlab",
           "Stored Procedures",
-          "Wildfly"
+          "Wildfly",
+          "Nginx"
         ]
       }
     ],
@@ -213,7 +215,8 @@
           "AWS S3",
           "AWS Dynamo",
           "Gitlab",
-          "Linux"
+          "Linux",
+          "Nginx"
         ]
       }
     ],
