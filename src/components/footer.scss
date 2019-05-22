@@ -17,11 +17,19 @@ footer{
     padding-top: 1rem;
   }
 
-  a{
-    color: #C8C8C8;
-  }
-
   .footer-text{
     padding-top: 1rem; 
+
+    a{
+      color: #C8C8C8;
+  
+      &:visited{
+        color: #C8C8C8;
+      }
+  
+      &:hover{
+        opacity: 0.5;
+      }
+    }
   }
 }
