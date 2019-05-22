@@ -52,7 +52,7 @@
     "projectId": "moncrud",
     "mainTechs": "Node, Mongo",
     "description": "Open-source tool which allows CRUD operations on any MongoDB database. The tool functions as a web application that can be used by any user without a software development background.",
-    "techDescription":"The main application is built in Express and it is intented to be executed by itself on user servers. The moncrud page was built with gatsby as a static page and the demo runs on a Docker container hosted on AWS.",
+    "techDescription":"The main application is built in Express and it is intented to be executed by itself on user servers. The moncrud page was built with gatsby as a static page and the demo runs on a Docker container hosted on AWS Fargate.",
     "projectDates": "November 2018 - Present",
     "skillGroups": [
       {
@@ -78,6 +78,7 @@
           "MongoDB",
           "Github",
           "AWS Amplify",
+          "AWS ECS",
           "Docker",
           "Docker Compose"
         ]
