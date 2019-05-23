@@ -3,6 +3,7 @@ module.exports = {
     title: `Santiago Beltran Caicedo`,
     description: `Software Engineer with a focus on web development, from requirements gathering to deployment in a production environment.`,
     author: `@sbeltran10`,
+    siteUrl: `https://www.santibeltran.com`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -35,7 +36,8 @@ module.exports = {
         icon: `src/images/icon.svg`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-sitemap`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
