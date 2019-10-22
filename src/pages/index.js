@@ -75,7 +75,14 @@ const IndexPage = () => (
               ...GatsbyImageSharpFluid
             }
           }
-        }        
+        }
+        queueserver: file(relativePath: { eq: "screenshots/queueserver.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }              
       }
     `}
     render={data =>

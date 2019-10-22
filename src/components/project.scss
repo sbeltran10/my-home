@@ -28,6 +28,7 @@
 
     .image-wrap.col-12 {
       border: 1px solid black;
+      padding: 1rem;
     }
     
     p.col-12 {
@@ -83,4 +84,7 @@
     @include projColor($color-questionnairequest);
   }
   
+  &#queueserver {
+    @include projColor($color-queueserver);
+  }
 }
