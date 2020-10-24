@@ -87,4 +87,8 @@
   &#queueserver {
     @include projColor($color-queueserver);
   }
+
+  &#sparkfive {
+    @include projColor($color-sparkfive);
+  }
 }

@@ -1,10 +1,59 @@
 [
   {
+    "title": "Sparkfive",
+    "projectId": "sparkfive",
+    "mainTechs": "Next.js, Node, AWS",
+    "description": "SaaS web application that allows teams to plan and coordinate tasks. The app also contains an asset library that lets teams administrate their campaigns multimedia content.",
+    "techDescription": "The static front-end application is built using Next.js and is hosted on AWS Amplify. The back-end runs on a serverless AWS Fargate container to easily scale down or up when the app traffic increases. Other AWS services like S3 and Cloudfornt are used to provide fast delivery of images and video files uploaded by users.",
+    "projectDates": "March 2020 - Present",
+    "skillGroups": [
+      {
+        "category": "languages",
+        "skills": [
+          "TypeScript",
+          "JavaScript (ECMAScript 2017)",
+          "HTML w/ Bootstrap",
+          "CSS"
+        ]
+      },
+      {
+        "category": "frameworks",
+        "skills": [
+          "Next.js",
+          "Node.js w/ Objection.js",
+          "Express",
+          "React"
+        ]
+      },
+      {
+        "category": "tools",
+        "skills": [
+          "Postgresql",
+          "Gitlab  w/ CD/CI",
+          "Vercel",
+          "AWS ECS Fargate",
+          "AWS RDS",
+          "AWS S3",
+          "AWS Amplify",
+          "AWS CloudFront",
+          "Docker",
+          "Stripe"
+        ]
+      }
+    ],
+    "networkLinks": [
+      {
+        "imgUrl": "website",
+        "url": "https://sparkfive.com"
+      }
+    ]
+  },
+  {
     "title": "Transformation Queue Server",
     "projectId": "queueserver",
     "mainTechs": "Node, AWS",
     "description": "Queue server that receives conversion requests from a Unity application and then forwards them to a Maya server running remotely. The conversion requests contain a 3D model, textures and set of points that are processed by the remote Maya instance. The output of this process is a new model that the Unity application receives at the end.",
-    "techDescription":"The queue server orchestrates the entire conversion process, using Redis to create and manage jobs for each request. An API is exposed to the Unity app to submit the input files, these input files are then stored in AWS S3. The Maya server instance runs on AWS EC2 and the queue server startups / shutdowns an instance depending on the number of jobs in the queue. The queue server also exposes an API for the Maya instance to upload the result file of a conversion process.",
+    "techDescription": "The queue server orchestrates the entire conversion process, using Redis to create and manage jobs for each request. An API is exposed to the Unity app to submit the input files, these input files are then stored in AWS S3. The Maya server instance runs on AWS EC2 and the queue server startups / shutdowns an instance depending on the number of jobs in the queue. The queue server also exposes an API for the Maya instance to upload the result file of a conversion process.",
     "projectDates": "July 2019 - December 2019",
     "skillGroups": [
       {
@@ -32,15 +81,14 @@
         ]
       }
     ],
-    "networkLinks": [
-    ]
+    "networkLinks": []
   },
   {
     "title": "PitchDB",
     "projectId": "pitchdb",
     "mainTechs": "React, Node, Mongo",
     "description": "SaaS that allows users to search podcasts and speakers to promote their ideas. When prospects are found, users can compose and send emails to initiate communication with these prospects and later on, track the progress for each one.",
-    "techDescription":"The user-facing static website communicates with 2 node applications that provide the needed API services. The first node application handles user data management, email sending and podcast searching. The second node application handles businesses data querying from a mongo datasource. The node applications leverage many APIs from Google, Microsoft, Paypal and Hunter.io among others, to provide functions for signing in, email sending, payment collection, email searching and email verification.",
+    "techDescription": "The user-facing static website communicates with 2 node applications that provide the needed API services. The first node application handles user data management, email sending and podcast searching. The second node application handles businesses data querying from a mongo datasource. The node applications leverage many APIs from Google, Microsoft, Paypal and Hunter.io among others, to provide functions for signing in, email sending, payment collection, email searching and email verification.",
     "projectDates": "July 2018 - Present",
     "skillGroups": [
       {
@@ -89,7 +137,7 @@
     "projectId": "moncrud",
     "mainTechs": "Node, Mongo",
     "description": "Open-source tool which allows CRUD operations on any MongoDB database. The tool functions as a web application that can be used by any user without a software development background.",
-    "techDescription":"The main application is built in Express and it is intented to be executed by itself on user servers. The moncrud page was built with gatsby as a static page and the demo runs on a Docker container hosted on AWS Fargate.",
+    "techDescription": "The main application is built in Express and it is intented to be executed by itself on user servers. The moncrud page was built with gatsby as a static page and the demo runs on a Docker container hosted on AWS Fargate.",
     "projectDates": "November 2018 - Present",
     "skillGroups": [
       {
@@ -137,7 +185,7 @@
     "projectId": "gersafeii",
     "mainTechs": "AngularJS, JavaEE, SQL Oracle",
     "description": "Enterprise web application used by a sea shipping company to carry out day-to-day operations. The application features management modules for different areas of the company, an email alarm system and data transformation for filling government-required documents.",
-    "techDescription":"The user-facing static website communicates with multiple JavaEE applications that provide the services it needs. The JavaEE applications run on a Wildfly server and they handle CRUD operations and user data management. Another important component is the Enterprise Service Bus (ESB) that orchestrates the communication between the JavaEE modules and also provides services for data transforming and email sending.",
+    "techDescription": "The user-facing static website communicates with multiple JavaEE applications that provide the services it needs. The JavaEE applications run on a Wildfly server and they handle CRUD operations and user data management. Another important component is the Enterprise Service Bus (ESB) that orchestrates the communication between the JavaEE modules and also provides services for data transforming and email sending.",
     "projectDates": "September 2017 - July 2018",
     "skillGroups": [
       {
@@ -173,15 +221,14 @@
         ]
       }
     ],
-    "networkLinks": [
-    ]
+    "networkLinks": []
   },
   {
     "title": "CollabIDE",
     "projectId": "collabide",
     "mainTechs": "Node, Firebase",
     "description": "(Research project) Integrated Development Environment in the cloud that helps development teams collaborate on a software project.",
-    "techDescription":"The main application uses Express to deliver the web content to users and coordinate the interaction between different user sessions. CollabIDE leverages Firebase's real-time database to display changes to users collaborating on a project.",
+    "techDescription": "The main application uses Express to deliver the web content to users and coordinate the interaction between different user sessions. CollabIDE leverages Firebase's real-time database to display changes to users collaborating on a project.",
     "projectDates": "January 2017 - July 2017",
     "skillGroups": [
       {
@@ -224,7 +271,7 @@
     "projectId": "walkingroutes",
     "mainTechs": "React, Node, AWS",
     "description": "Web application that allows the creation of touristic routes for different cities of the world. Has support for creating content in many different languages.",
-    "techDescription":"The user-facing application is a static website hosted on a EC2 instance. The back-end is an entirely serverless solution, using AWS to create the API needed by the front-end.",
+    "techDescription": "The user-facing application is a static website hosted on a EC2 instance. The back-end is an entirely serverless solution, using AWS to create the API needed by the front-end.",
     "projectDates": "October 2017 - December 2017",
     "skillGroups": [
       {
@@ -256,15 +303,14 @@
         ]
       }
     ],
-    "networkLinks": [
-    ]
+    "networkLinks": []
   },
   {
     "title": "Questionnaire",
     "projectId": "questionnairequest",
     "mainTechs": "React Native, AWS",
     "description": "React Naitve application intented to be used as a media rich branching questionnaire component. Three different types of questionnaire are supported: survey, quiz and games.",
-    "techDescription":"The mobile application is built in its entirety with React Native. The back-end is a completely serverless solution using AWS to create the API needed by the mobile application.",
+    "techDescription": "The mobile application is built in its entirety with React Native. The back-end is a completely serverless solution using AWS to create the API needed by the mobile application.",
     "projectDates": "April 2019 - May 2019",
     "skillGroups": [
       {

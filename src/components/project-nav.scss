@@ -53,6 +53,10 @@
       &.queueserver{
         @include navColor($color-queueserver);
       }
+
+      &.sparkfive{
+        @include navColor($color-sparkfive);
+      }
     }
     &:hover, :visited {
       text-decoration: none;
