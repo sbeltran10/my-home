@@ -134,7 +134,7 @@
     "mainTechs": "React, Node, Mongo",
     "description": "SaaS that allows users to search podcasts and speakers to promote their ideas. When prospects are found, users can compose and send emails to initiate communication with these prospects and later on, track the progress for each one.",
     "techDescription": "The user-facing static website communicates with 2 node applications that provide the needed API services. The first node application handles user data management, email sending and podcast searching. The second node application handles businesses data querying from a mongo datasource. The node applications leverage many APIs from Google, Microsoft, Paypal and Hunter.io among others, to provide functions for signing in, email sending, payment collection, email searching and email verification.",
-    "projectDates": "July 2018 - Present",
+    "projectDates": "July 2018 - November 2019",
     "skillGroups": [
       {
         "category": "languages",
@@ -183,7 +183,7 @@
     "mainTechs": "Node, Mongo",
     "description": "Open-source tool which allows CRUD operations on any MongoDB database. The tool functions as a web application that can be used by any user without a software development background.",
     "techDescription": "The main application is built in Express and it is intented to be executed by itself on user servers. The moncrud page was built with gatsby as a static page and the demo runs on a Docker container hosted on AWS Fargate.",
-    "projectDates": "November 2018 - Present",
+    "projectDates": "November 2018 - March 2019",
     "skillGroups": [
       {
         "category": "languages",
