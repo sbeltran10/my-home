@@ -57,6 +57,9 @@
       &.sparkfive{
         @include navColor($color-sparkfive);
       }
+      &.trymetric{
+        @include navColor($color-trymetric);
+      }
     }
     &:hover, :visited {
       text-decoration: none;

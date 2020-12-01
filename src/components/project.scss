@@ -91,4 +91,7 @@
   &#sparkfive {
     @include projColor($color-sparkfive);
   }
+  &#sparkfive {
+    @include projColor($color-trymetric);
+  }
 }

@@ -5,7 +5,7 @@
     "mainTechs": "Next.js, Node, AWS",
     "description": "SaaS web application that allows teams to plan and coordinate tasks. The app also contains an asset library that lets teams administrate their campaigns multimedia content.",
     "techDescription": "The static front-end application is built using Next.js and is hosted on AWS Amplify. The back-end runs on a serverless AWS Fargate container to easily scale down or up when the app traffic increases. Other AWS services like S3 and Cloudfornt are used to provide fast delivery of images and video files uploaded by users.",
-    "projectDates": "March 2020 - Present",
+    "projectDates": "March 2020 - November 2020",
     "skillGroups": [
       {
         "category": "languages",
@@ -37,7 +37,52 @@
           "AWS Amplify",
           "AWS CloudFront",
           "Docker",
-          "Stripe"
+          "Stripe",
+          "Google OAuth2"
+        ]
+      }
+    ],
+    "networkLinks": [
+      {
+        "imgUrl": "website",
+        "url": "https://sparkfive.com"
+      }
+    ]
+  },
+  {
+    "title": "Trymetric",
+    "projectId": "trymetric",
+    "mainTechs": "React.js, Node, Firebase, Google Cloud",
+    "description": "SaaS web application that allows teams to automate facebook/google ads reports. Users are able to customize when the reports are sent, and what information is sent to the user. Users can receive these reports via email or slack.",
+    "techDescription": "The static front-end application is built using React and is hosted on Firebase. The back-end consists of 2 node applications. One is built using express and handles all of the requests that involve managing users and metrics. The second node app is a scheduler that sends the metric reports to the users. The first application runs on Google Cloud Run, and the scheduler runs on a Compute Engine machine",
+    "projectDates": "January 2020 - September 2020",
+    "skillGroups": [
+      {
+        "category": "languages",
+        "skills": [
+          "JavaScript (ECMAScript 2017)",
+          "HTML w/ Bootstrap",
+          "CSS"
+        ]
+      },
+      {
+        "category": "frameworks",
+        "skills": [
+          "Node.js",
+          "Express",
+          "React"
+        ]
+      },
+      {
+        "category": "tools",
+        "skills": [
+          "Firebase",
+          "Google Cloud Run",
+          "Google Cloud Compute Engine",
+          "Github",          
+          "Stripe",
+          "Facebook ads API",
+          "Google ads API"
         ]
       }
     ],

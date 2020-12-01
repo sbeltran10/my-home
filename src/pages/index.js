@@ -76,6 +76,13 @@ const IndexPage = () => (
             }
           }
         }
+        trymetric: file(relativePath: { eq: "screenshots/trymetric.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         walkingroutes: file(relativePath: { eq: "screenshots/walkingroutes.png" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
