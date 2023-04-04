@@ -114,11 +114,11 @@ const IndexPage = () => (
                     <Img alt={"santiago beltran"} fluid={data.me.childImageSharp.fluid} />
                   </div>
                   <p className="col-12 col-lg-9 name-desc-wrap">
-                    Software Engineer with a focus on web development, from requirements gathering to deployment in a production environment.
-                    <br/>
-                    <br/>
+                    Software engineer with over 6 years of experience building enterprise, mobile and web applications, big and small.
+                    <br />
+                    <br />
                     I've worked in many environments, taking on the role of team member, solo developer, mentor and have been able to be effective in all of these situations.
-              </p>
+                  </p>
                 </div>
               </BackgroundImage>
             </div>

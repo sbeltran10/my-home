@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Santiago Beltran Caicedo`,
-    description: `Software Engineer with a focus on web development, from requirements gathering to deployment in a production environment.`,
+    description: `Software engineer with over 6 years of experience building enterprise, mobile and web applications, big and small.`,
     author: `@sbeltran10`,
     siteUrl: `https://www.santibeltran.com`
   },

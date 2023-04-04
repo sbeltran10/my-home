@@ -1,5 +1,45 @@
 [
   {
+    "title": "Mustr",
+    "projectId": "mustr",
+    "mainTechs": "Django.py, Flutter, Typescript, AWS",
+    "description": "Mobile application that enables enhanced communication and accountability between users on the field.",
+    "techDescription": "The mobile application is built using flutter and is backed by a Python and Node.js backend. The python backend uses Django to apply business logic and do CRUD operations on the database. The Node.js server exposes graphql endpoints that the frontend clients can use.",
+    "projectDates": "March 2021 - Present",
+    "skillGroups": [
+      {
+        "category": "languages",
+        "skills": [
+          "Python",
+          "TypeScript",
+          "Dart"
+        ]
+      },
+      {
+        "category": "frameworks",
+        "skills": [
+          "Django.js",
+          "Flutter",
+          "React"
+        ]
+      },
+      {
+        "category": "tools",
+        "skills": [
+          "Postgresql",
+          "Gitlab  w/ CD/CI",
+          "AWS RDS",
+          "AWS S3",
+          "AWS EC2",
+          "Docker",
+          "Kubernetes",
+          "Graphql"
+        ]
+      }
+    ],
+    "networkLinks": []
+  },
+  {
     "title": "Sparkfive",
     "projectId": "sparkfive",
     "mainTechs": "Next.js, Node, AWS",
@@ -79,7 +119,7 @@
           "Firebase",
           "Google Cloud Run",
           "Google Cloud Compute Engine",
-          "Github",          
+          "Github",
           "Stripe",
           "Facebook ads API",
           "Google ads API"
